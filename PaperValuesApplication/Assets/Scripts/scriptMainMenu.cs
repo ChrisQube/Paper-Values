@@ -15,4 +15,9 @@ public class scriptMainMenu : MonoBehaviour
         Debug.Log("QUIT!");
         Application.Quit();
     }
+
+    public void testingThis(string testing)
+    {
+        Debug.Log(testing);
+    }
 }
